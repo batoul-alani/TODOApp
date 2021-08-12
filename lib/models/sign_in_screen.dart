@@ -29,25 +29,7 @@ class _SignInScreenState extends State<SignInScreen> {
         inAsyncCall: showSpannerInLogInScreen,
         child: ListView(
           children: <Widget>[
-            // TextField(
-            //   keyboardType: TextInputType.name,
-            //   decoration: InputDecoration(
-            //     helperText: 'Which you register it',
-            //     hintText: 'Enter your database Label',
-            //     hintStyle: TextStyle(
-            //       color: Colors.black45,
-            //     ),
-            //     helperStyle: TextStyle(
-            //       color: Colors.black38,
-            //     ),
-            //   ),
-            //   textAlign: TextAlign.center,
-            //   cursorColor: Colors.lightBlueAccent,
-            //   autofocus: true,
-            //   onChanged: (String inputDataBase){
-            //     database=inputDataBase;
-            //   },
-            // ),
+            
             TextField(
               keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
